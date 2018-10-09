@@ -29,6 +29,13 @@ class Solution(object):
                 b   = a
                 a   = sum
             return sum
+    def FibonacciOF(self,n):
+            list = [1, 1]
+            if n > 2:
+                for i in range(2, n, 1):
+                    listNew = list[i - 2] + list[i - 1]
+                    list.append(listNew)
+            return list[n - 1]
     def return_Fib(self):
         r = (input("请输入您的选择:"))
         if r == "1":
@@ -47,7 +54,7 @@ class Solution(object):
         else:
             print("请重新输入")
             self.Time_interation()
-    def Time_Fib(self):
+    def New_Time_Fib(self):
         print("-------------------迭代法-----------------------")
         print(self.k)
         r=(input("请输入您的选择:"))
@@ -66,7 +73,7 @@ class Solution(object):
                 o = int(input("请输入你选定的位数:"))
                 if (o>=0):
                     t1 = time.clock()
-                    print("该位数的Fibonacci数为:", self.FibonacciD(o))
+                    print("该位数的Fibonacci数为:", self.FibonacciF(o))
                     print('\n')
                     t2 = time.clock()
                     t3 = t2 - t1
@@ -76,6 +83,38 @@ class Solution(object):
             else:
                 print("请重新输入")
                 self.Time_Fib()
+        print("退出")
+        print(self.l)
+        self.return_Fib()
+    def Old_Time_Fib(self):
+        print("-----------------旧迭代法-----------------------")
+        print(self.k)
+        r=(input("请输入您的选择:"))
+        while(r!="q"):
+            if r == "1":
+                i = 1
+                while self.FibonacciOF(i) <= sys.maxsize:
+                    i = i + 1
+                else:
+                    t1 = time.clock()
+                    print("计算机能表示最大整数对应的位数为:",i - 1)
+                    t2 = time.clock()
+                    t3 = t2 - t1
+                    print("执行时间为:", t3)
+            elif r =="2":
+                o = int(input("请输入你选定的位数:"))
+                if (o>=0):
+                    t1 = time.clock()
+                    print("该位数的Fibonacci数为:", self.FibonacciOF(o))
+                    print('\n')
+                    t2 = time.clock()
+                    t3 = t2 - t1
+                    print("执行时间为:", t3)
+                else:
+                    print("输入错误，请重新输入")
+            else:
+                print("请重新输入")
+                self.Old_Time_Fib()
         print("退出")
         print(self.l)
         self.return_Fib()
@@ -98,7 +137,7 @@ class Solution(object):
             elif r =="2":
                 o=int(input("请输入你选定的位数:"))
                 t1 = time.clock()
-                print("该位数的Fibonacci数为:",self.FibonacciF(o))
+                print("该位数的Fibonacci数为:",self.FibonacciD(o))
                 t2 = time.clock()
                 t3 = t2 - t1
                 print("执行时间为:", t3)
@@ -115,14 +154,16 @@ def main():
           "-----------Fibonacci_numbers-----------\n"
           "-------------(1)迭代方法求解-------------\n"
           "-------------(2)递归算法求解-------------\n"
-          "-------------(3)公式方法求解-------------\n"
+          "-------------(3)优化迭代方法求解----------\n"
           "-------------(q)退出--------------------\n"
           "------------请选择您需要的方法------------")
     j = (input("请输入您的选择:"))
     if(j == "1"):
-        a.Time_Fib()
+        a.Old_Time_Fib()
     elif(j=="2"):
         a.Time_interation()
+    elif(j=="3"):
+        a.New_Time_Fib()
     elif(j=="q"):
         exit("程序结束")
 main()
