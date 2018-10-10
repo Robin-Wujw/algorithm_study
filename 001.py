@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import sys
 import time
-
 class Solution(object):
     k =("-----------------------------------------------\n"
         "您需求计算机所能表示的最大整数还是自选位数Fibonacci数:\n"
@@ -10,7 +9,8 @@ class Solution(object):
         "---------------(q)退出--------------------------")
     l = ("-----------------------------------------------\n"
          "----------------(1)返回主菜单--------------------\n"
-         "----------------(2)返回当前页面------------------")
+         "----------------(2)返回当前页面------------------\n"
+         "----------------(q)直接退出---------------------")
     def FibonacciD(self,n):
         if(n<=1):
             return n
@@ -36,15 +36,28 @@ class Solution(object):
                     listNew = list[i - 2] + list[i - 1]
                     list.append(listNew)
             return list[n - 1]
-    def return_Fib(self):
+    def return_Old_Fib(self):
         r = (input("请输入您的选择:"))
         if r == "1":
             main()
         elif r == "2":
-            self.Time_Fib()
+            self.Old_Time_Fib()
+        elif r =="q":
+            exit("程序结束")
         else:
             print("请重新输入")
-            self.Time_Fib()
+            self.Old_Time_Fib()
+    def return_New_Fib(self):
+        r = (input("请输入您的选择:"))
+        if r == "1":
+            main()
+        elif r == "2":
+            self.New_Time_Fib()
+        elif r =="q":
+            exit("程序结束")
+        else:
+            print("请重新输入")
+            self.New_Time_Fib()
     def return_interation(self):
         r = (input("请输入您的选择:"))
         if r == "1":
@@ -58,8 +71,8 @@ class Solution(object):
         print("-------------------迭代法-----------------------")
         print(self.k)
         r=(input("请输入您的选择:"))
-        while(r!="q"):
-            if r == "1":
+        if (r !="q"):
+            if(r == "1"):
                 i = 1
                 while self.FibonacciF(i) <= sys.maxsize:
                     i = i + 1
@@ -69,12 +82,11 @@ class Solution(object):
                     t2 = time.clock()
                     t3 = t2 - t1
                     print("执行时间为:", t3)
-            elif r =="2":
+            elif (r =="2"):
                 o = int(input("请输入你选定的位数:"))
                 if (o>=0):
                     t1 = time.clock()
                     print("该位数的Fibonacci数为:", self.FibonacciF(o))
-                    print('\n')
                     t2 = time.clock()
                     t3 = t2 - t1
                     print("执行时间为:", t3)
@@ -82,15 +94,14 @@ class Solution(object):
                     print("输入错误，请重新输入")
             else:
                 print("请重新输入")
-                self.Time_Fib()
-        print("退出")
+                self.New_Time_Fib()
         print(self.l)
-        self.return_Fib()
+        self.return_New_Fib()
     def Old_Time_Fib(self):
         print("-----------------旧迭代法-----------------------")
         print(self.k)
         r=(input("请输入您的选择:"))
-        while(r!="q"):
+        if (r !="q"):
             if r == "1":
                 i = 1
                 while self.FibonacciOF(i) <= sys.maxsize:
@@ -106,7 +117,6 @@ class Solution(object):
                 if (o>=0):
                     t1 = time.clock()
                     print("该位数的Fibonacci数为:", self.FibonacciOF(o))
-                    print('\n')
                     t2 = time.clock()
                     t3 = t2 - t1
                     print("执行时间为:", t3)
@@ -115,15 +125,14 @@ class Solution(object):
             else:
                 print("请重新输入")
                 self.Old_Time_Fib()
-        print("退出")
         print(self.l)
-        self.return_Fib()
+        self.return_Old_Fib()
     def Time_interation(self):
         print("-------------------递归法-----------------------")
         print(self.k)
         t1 = time.clock()
         r=(input("请输入您的选择:"))
-        while(r!="q"):
+        if (r !="q"):
             if r == "1":
                 i = 1
                 while self.FibonacciD(i)<=sys.maxsize:
@@ -145,7 +154,6 @@ class Solution(object):
                 exit("程序结束")
             else:
                 print("请重新输入")
-        print("退出")
         print(self.l)
         self.return_interation()
 def main():
