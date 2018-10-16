@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="692f2020-acfa-499e-be87-18073dfe4ca8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/001.py" beforeDir="false" afterPath="$PROJECT_DIR$/001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +18,12 @@
     <session id="-1480317425">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="8" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,13 +55,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/001.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="78" column="55" lean-forward="true" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+            <state relative-caret-position="109">
+              <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
               <folding>
                 <element signature="e#19#29#0" expanded="true" />
-                <marker date="1539163120122" expanded="true" signature="1041:1263" ph="..." />
-                <marker date="1539163120122" expanded="true" signature="1861:2127" ph="..." />
-                <marker date="1539163120122" expanded="true" signature="2150:2151" ph="..." />
+                <marker date="1539254770660" expanded="true" signature="1041:1263" ph="..." />
+                <marker date="1539254770660" expanded="true" signature="1861:2127" ph="..." />
+                <marker date="1539254770660" expanded="true" signature="2150:2151" ph="..." />
               </folding>
             </state>
           </provider>
@@ -92,10 +93,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="168" />
-    <option name="width" value="1910" />
-    <option name="height" value="764" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1772" />
+    <option name="y" value="201" />
+    <option name="width" value="1024" />
+    <option name="height" value="576" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -103,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,6 +120,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,15 +211,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="34" width="1920" height="1019" extended-state="6" />
-    <editor active="true" />
+    <frame x="1772" y="201" width="1024" height="576" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20900321" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29175258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31861576" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31861576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,13 +273,13 @@
     <entry file="file://$PROJECT_DIR$/002.py" />
     <entry file="file://$PROJECT_DIR$/001.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="78" column="55" lean-forward="true" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+        <state relative-caret-position="109">
+          <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
           <folding>
             <element signature="e#19#29#0" expanded="true" />
-            <marker date="1539163120122" expanded="true" signature="1041:1263" ph="..." />
-            <marker date="1539163120122" expanded="true" signature="1861:2127" ph="..." />
-            <marker date="1539163120122" expanded="true" signature="2150:2151" ph="..." />
+            <marker date="1539254770660" expanded="true" signature="1041:1263" ph="..." />
+            <marker date="1539254770660" expanded="true" signature="1861:2127" ph="..." />
+            <marker date="1539254770660" expanded="true" signature="2150:2151" ph="..." />
           </folding>
         </state>
       </provider>
