@@ -17,6 +17,15 @@ class Solution():
         b = x
         if n <=0:
             return 1
+        else:
+            if n % 2 == 0:
+                return self.Third(x,n/2)*self.Third(x,n/2)
+            else:
+                return self.Third(x,(n-1)/2) * self.Third(x,(n-1)/2) * x
+    def Four(self,x,n):
+        b = x
+        if n <=0:
+            return 1
         elif n == 1:
             return x
         elif n % 2 == 0:
@@ -27,21 +36,6 @@ class Solution():
             for i in range((int((n-1)/2)-1)):
                 x = b*x
             x = x * x * b
-        return x
-    def Four(self,x,n):
-        b = x
-        if n <=0:
-            return 1
-        elif n == 1:
-            return x
-        elif n % 2 == 0:
-            for i in range(int(n/2)-1):
-                x = b * x
-            x = pow(x,2)
-        else:
-            for i in range((int((n-1)/2)-1)):
-                x = b*x
-            x = pow(x,2)*b
         return x
 
 def main():
