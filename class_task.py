@@ -1,5 +1,5 @@
+#! /usr/bin/python3
 class Solution():
-
     def First(self,x,n):
         b = x
         if (n<=0):
@@ -29,12 +29,10 @@ class Solution():
         elif n == 1:
             return x
         elif n % 2 == 0:
-            for i in range(int(n/2)-1):
-                x = b * x
+            x = self.Four(x,n/2)
             x = x * x
         else:
-            for i in range((int((n-1)/2)-1)):
-                x = b*x
+            x = self.Four(x,(n-1)/2)   
             x = x * x * b
         return x
 
