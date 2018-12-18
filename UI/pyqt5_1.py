@@ -36,9 +36,9 @@ class Dialog1(QMainWindow):
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(10, 170, 160, 44))
         self.pushButton.setObjectName("pushButton")
-        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(10, 240, 160, 44))
-        self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_a = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_a.setGeometry(QtCore.QRect(10, 240, 160, 44))
+        self.pushButton_a.setObjectName("pushButton_2")
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_3.setGeometry(QtCore.QRect(10, 310, 160, 44))
         self.pushButton_3.setObjectName("pushButton_3")
@@ -100,7 +100,7 @@ class Dialog1(QMainWindow):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
         self.pushButton.clicked.connect(self.onChanged)
-        self.pushButton_2.clicked.connect(self.onChanged)
+        self.pushButton_a.clicked.connect(self.onChanged)
         self.pushButton_3.clicked.connect(self.onChanged)
         self.pushButton_4.clicked.connect(self.onChanged)
         self.pushButton_5.clicked.connect(self.onChanged)
@@ -114,35 +114,37 @@ class Dialog1(QMainWindow):
         self.label_4.setText(_translate("MainWindow", "结果:"))
         self.label_5.setText(_translate("MainWindow", "时间(s):"))
         self.pushButton.setText(_translate("MainWindow", "迭代法"))
-        self.pushButton_2.setText(_translate("MainWindow", "递归法"))
+        self.pushButton_a.setText(_translate("MainWindow", "递归法"))
         self.pushButton_3.setText(_translate("MainWindow", "优化迭代法"))
         self.pushButton_4.setText(_translate("MainWindow", "迭代法(最大)"))
         self.pushButton_5.setText(_translate("MainWindow", "递归法(最大)"))
         self.pushButton_6.setText(_translate("MainWindow", "优化迭代法(最大)"))
 
+
+
     def onChanged(self):
             a = al_001.Solution()
             number = self.lineEdit.text()
-            sender = self.sender()
-            if sender == self.pushButton:
+            sender1 = self.sender()
+            if sender1 == self.pushButton:
                 self.textBrowser.clear()
                 self.textBrowser.append(str(a.FibonacciOF(int(number))))
                 self.textBrowser_7.append(str(a.Old_Time_Fib(int(number))))
-            elif sender == self.pushButton_2:
+            elif sender1 == self.pushButton_a:
                 self.textBrowser_2.clear()
                 self.textBrowser_2.append(str(a.FibonacciD(int(number))))
                 self.textBrowser_8.append(str(a.Time_interation(int(number))))
-            elif sender == self.pushButton_3:
+            elif sender1 == self.pushButton_3:
                 self.textBrowser_3.clear()
                 self.textBrowser_9.clear()
                 self.textBrowser_3.append(str(a.FibonacciF(int(number))))
                 self.textBrowser_9.append(str(a.New_Time_Fib(int(number))))
-            elif sender == self.pushButton_4:
+            elif sender1 == self.pushButton_4:
                 self.textBrowser_4.clear()
                 self.textBrowser_10.clear()
                 self.textBrowser_4.append(str(a.FibonacciOF(int(92))))
                 self.textBrowser_10.append(str(a.Old_Time_Fib(int(92))))
-            elif sender == self.pushButton_5:
+            elif sender1 == self.pushButton_5:
                 self.textBrowser_5.clear()
                 self.textBrowser_11.clear()
                 self.textBrowser_5.append(str(a.FibonacciD(int(92))))

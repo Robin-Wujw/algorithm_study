@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="692f2020-acfa-499e-be87-18073dfe4ca8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UI/999.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI_Algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/003.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/004.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/005.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/pyqt5.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/pyqt5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/pyqt5_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/pyqt5_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/pyqt5_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/pyqt5_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI_Algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI_Algorithm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +21,7 @@
     <SUITE FILE_PATH="coverage/algorithm_study$pyqt5_1.coverage" NAME="pyqt5_1 Coverage Results" MODIFIED="1545006164083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/algorithm_study$al_001.coverage" NAME="al_001 Coverage Results" MODIFIED="1545047348041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm_python" />
     <SUITE FILE_PATH="coverage/algorithm_study$al_004_cp.coverage" NAME="al_004_cp Coverage Results" MODIFIED="1545065082266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm_python" />
-    <SUITE FILE_PATH="coverage/algorithm_study$UI_Algorithm.coverage" NAME="UI_Algorithm Coverage Results" MODIFIED="1545132330898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm_study$UI_Algorithm.coverage" NAME="UI_Algorithm Coverage Results" MODIFIED="1545140811331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algorithm_study$004.coverage" NAME="004 Coverage Results" MODIFIED="1543999486134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algorithm_study$pyqt5_4.coverage" NAME="pyqt5_4 Coverage Results" MODIFIED="1545059109194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/algorithm_study$al_004.coverage" NAME="al_004 Coverage Results" MODIFIED="1545065087292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm_python" />
@@ -38,41 +34,19 @@
     <SUITE FILE_PATH="coverage/algorithm_study$999.coverage" NAME="999 Coverage Results" MODIFIED="1545131390997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/algorithm_study$002.coverage" NAME="002 Coverage Results" MODIFIED="1543146564662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/UI/999.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-1891">
-                    <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-                    <folding>
-                      <element signature="e#0#10#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1480317425">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="51" />
+          <entry key="project.closed" value="52" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="27" />
-          <entry key="project.open.time.6" value="15" />
+          <entry key="project.open.time.6" value="16" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.opened" value="59" />
+          <entry key="project.opened" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -86,7 +60,7 @@
         <counts>
           <entry key="Bash" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="79" />
+          <entry key="Python" value="82" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -97,7 +71,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="16285" />
+          <entry key="Python" value="16616" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -106,13 +80,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UI_Algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="-702">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
               <folding>
-                <element signature="e#20#30#0" expanded="true" />
+                <element signature="e#190#200#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm_python/al_001.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+            <state relative-caret-position="2538">
+              <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
               <folding>
                 <element signature="e#19#29#0" expanded="true" />
               </folding>
@@ -133,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UI/pyqt5_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="108">
+              <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
               <folding>
                 <element signature="e#196#206#0" expanded="true" />
               </folding>
@@ -143,22 +117,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/pyqt5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
-              <folding>
-                <element signature="e#190#200#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UI/pyqt5_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="395">
+              <caret line="48" column="46" lean-forward="true" selection-start-line="11" selection-end-line="48" selection-end-column="46" />
               <folding>
                 <element signature="e#196#206#0" expanded="true" />
               </folding>
@@ -169,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UI/pyqt5_5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="395">
+              <caret line="55" column="54" lean-forward="true" selection-start-line="11" selection-end-line="55" selection-end-column="54" />
               <folding>
                 <element signature="e#196#206#0" expanded="true" />
               </folding>
@@ -181,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UI/pyqt5_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="50" column="81" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
+            <state relative-caret-position="395">
+              <caret line="64" lean-forward="true" selection-start-line="11" selection-end-line="64" />
               <folding>
                 <element signature="e#196#206#0" expanded="true" />
               </folding>
@@ -205,6 +167,7 @@
       <find>show</find>
       <find>onC</find>
       <find>setCent</find>
+      <find>onCha</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -226,15 +189,15 @@
         <option value="$PROJECT_DIR$/algorithm_python/al_001.py" />
         <option value="$PROJECT_DIR$/UI/pyqt5_6.py" />
         <option value="$PROJECT_DIR$/algorithm_python/al_002.py" />
-        <option value="$PROJECT_DIR$/UI/pyqt5_2.py" />
         <option value="$PROJECT_DIR$/algorithm_python/al_004_cp.py" />
         <option value="$PROJECT_DIR$/algorithm_python/al_004.py" />
         <option value="$PROJECT_DIR$/UI/999.py" />
-        <option value="$PROJECT_DIR$/UI_Algorithm.py" />
-        <option value="$PROJECT_DIR$/UI/pyqt5.py" />
         <option value="$PROJECT_DIR$/UI/pyqt5_4.py" />
         <option value="$PROJECT_DIR$/UI/pyqt5_5.py" />
+        <option value="$PROJECT_DIR$/UI/pyqt5.py" />
+        <option value="$PROJECT_DIR$/UI/pyqt5_2.py" />
         <option value="$PROJECT_DIR$/UI/pyqt5_1.py" />
+        <option value="$PROJECT_DIR$/UI_Algorithm.py" />
       </list>
     </option>
   </component>
@@ -256,6 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,7 +245,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -481,10 +444,10 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.08681672" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.08788853" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47534835" weight="0.24343675" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47534835" weight="0.25417662" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48285103" weight="0.39976135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -495,7 +458,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52465165" side_tool="true" weight="0.33651552" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.4989282" weight="0.3293556" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49785638" weight="0.33174226" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.4994641" visible="true" weight="0.3293556" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.4994641" weight="0.3293556" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -651,68 +614,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UI/999.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1891">
-          <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        <state relative-caret-position="27">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UI_Algorithm.py">
+    <entry file="file://$PROJECT_DIR$/UI/pyqt5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="e#20#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/pyqt5_5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="e#196#206#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UI/pyqt5_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="50" column="81" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
-          <folding>
-            <element signature="e#196#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_python/al_001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-          <folding>
-            <element signature="e#19#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/pyqt5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
-          <folding>
-            <element signature="e#190#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/pyqt5_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="395">
+          <caret line="64" lean-forward="true" selection-start-line="11" selection-end-line="64" />
           <folding>
             <element signature="e#196#206#0" expanded="true" />
           </folding>
@@ -721,10 +641,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UI/pyqt5_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="395">
+          <caret line="48" column="46" lean-forward="true" selection-start-line="11" selection-end-line="48" selection-end-column="46" />
           <folding>
             <element signature="e#196#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/pyqt5_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="55" column="54" lean-forward="true" selection-start-line="11" selection-end-line="55" selection-end-column="54" />
+          <folding>
+            <element signature="e#196#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/pyqt5_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+          <folding>
+            <element signature="e#196#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_python/al_001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2538">
+          <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+          <folding>
+            <element signature="e#19#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI_Algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#190#200#0" expanded="true" />
           </folding>
         </state>
       </provider>

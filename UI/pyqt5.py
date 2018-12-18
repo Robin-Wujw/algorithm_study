@@ -8,7 +8,7 @@
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QApplication,QMainWindow,QFileDialog
-from algorithm_python import al_003
+from algorithm_python import al_001,al_002,al_004,al_005
 from UI import pyqt5_1,pyqt5_2,pyqt5_4,pyqt5_5
 class Ui_MainWindow(QMainWindow):
     def setupUi(self, MainWindow):
@@ -62,9 +62,7 @@ class Ui_MainWindow(QMainWindow):
         self.windowList.append(the_window)
         ua = pyqt5_1.Dialog1()
         ua.setupUi(the_window)
-        self.close()
         the_window.show()
-
     def on_click2(self):
         the_window = pyqt5_2.Ui_MainWindow()
         self.windowList.append(the_window)
