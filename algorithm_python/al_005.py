@@ -27,4 +27,3 @@ def main():
     list=input("请输入一列数组,用逗号分开:")
     n=[int(n) for n in list.split(",")]
     print("不相交的两个字段和最大为:",MAXL(n))
-main()

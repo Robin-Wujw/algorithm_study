@@ -24,4 +24,3 @@ def main():
         a.append(c)
     #a=[3,10,12,6,1,32,8]
     print(Quick_Sort(a,0,len(a)-1))
-main()

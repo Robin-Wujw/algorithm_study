@@ -4,14 +4,14 @@ import math
 import time
 import random
 import matplotlib.pyplot as plt
-if __name__ == '__main__':
-    x1 = []
-    y1 = []
-    x2 = []
-    y2 = []
-    x3 = []
-    y3 = []
-    L=[]
+
+x1 = []
+y1 = []
+x2 = []
+y2 = []
+x3 = []
+y3 = []
+L = []
 def random_List(Length):
     start=-500
     end  =+500
@@ -89,8 +89,14 @@ def area(p_result):
     print(area)
     #return area
 def main():
-    random_List(100)
+    x1.clear()
+    y1.clear()
+    x2.clear()
+    y2.clear()
+    x3.clear()
+    y3.clear()
+    L.clear()
+    random_List(4)
     #get_base(L)
     print(graham_scan(L))
     area(graham_scan(L))
-main()

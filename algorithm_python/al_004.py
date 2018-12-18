@@ -11,13 +11,19 @@ matrix = [[0, 4, 3, 12,a, 3],
           [3, 1, a, 4, a, 0],
           ]
 def prim(matrix,n):
+    str=[]
+    p="The matrix of the tree is:\n(inf is the max number in python)"
+    str.append(p)
+    i = len(matrix)
+    for i in range(i):
+        str.append(matrix[i])
     treeDis = matrix[0]  # 各个点距离生成树的最短距离列表
     visited = [0 for i in range(6)]  # 已经访问过的节点将被置为1
     visited[0] = 1
     minDistance = 0
     # 不在树中的点距离树有最短距离，在树中对应的距离最小的那个点
-    # 比如neighbor[1]=0表示在节点1还不在树中时，它离树中的节点0距离最小
-    neighbor = [0] * 6
+    # 比如Intree[1]=0表示在节点1还不在树中时，它离树中的节点0距离最小
+    Intree = [0] * 6
     for i in range(5):
         minDis = a
         # 找出此时离树距离最小的不在树中顶点
@@ -27,20 +33,25 @@ def prim(matrix,n):
                 minDisPos = j
         minDistance+=minDis
         visited[minDisPos] = 1
-        print(b[minDisPos], minDis)
         for j in range(6):
             # 刷新剩下的顶点距离树的最短距离
            if (not visited[j]) and (matrix[minDisPos][j] < treeDis[j]):
                 treeDis[j] = matrix[minDisPos][j]
-                neighbor[j] = minDisPos
-        # print("Here minDIsPos : "+str(minDisPos))
-    print(neighbor)
-    print("The minmum distance are:")
-    print(minDistance)
-    print("Edges that in the tree:")
-    for i in range(1, 6):
-        print(b[int(str(i))] + '-' + b[int(str(neighbor[i]))])
-def main():
-    n=6
-    prim(matrix, n)
-main()
+                Intree[j] = minDisPos
+        #for i in range(6):
+        #    print(Intree[i])
+    l="The minmum distance are:"
+    str.append(l)
+    str.append(minDistance)
+    c="Edges that in the tree:"
+    str.append(c)
+
+    for z in range(1, 6):
+        #print(b[Intree[z]])
+        str.append(b[int((z))] + '-' + b[int(Intree[z])])
+    return str
+if __name__ == '__main__':
+    def main():
+        n=6
+        prim(matrix, n)
+    main()
