@@ -51,7 +51,7 @@ class Ui_MainWindow(QMainWindow):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "UI_for_algorithm"))
-        self.pushButton.setText(_translate("MainWindow", "fibonacci"))
+        self.pushButton.setText(_translate("MainWindow", "Fibonacci"))
         self.pushButton_2.setText(_translate("MainWindow", "QuickSort"))
         self.pushButton_3.setText(_translate("MainWindow", "Convex Hull"))
         self.pushButton_4.setText(_translate("MainWindow", "Prim_tree"))
