@@ -30,6 +30,14 @@ def drawPic():
 
     start = int(inputEntry1.get())          #读起点
     end = int(inputEntry2.get())            #读终点
+    if start < 0 or start>=6:
+        R.set_title("Set again")
+        canvas.draw()
+        return
+    elif end <0 or start >=6:
+        R.set_title("Set again")
+        canvas.draw()
+        return
     # 清空图像，以使得前后两次绘制的图像不会重叠
     R.clear()
     path = bf.test(start, end, bf.graph)               #将起点和终点输入进Bellman-Ford算法，得到path列表
