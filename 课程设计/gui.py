@@ -34,7 +34,7 @@ def drawPic():
         R.set_title("Set again")
         canvas.draw()
         return
-    elif end <0 or start >=6:
+    elif end <0 or end >=6:
         R.set_title("Set again")
         canvas.draw()
         return
